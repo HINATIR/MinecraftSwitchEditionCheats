@@ -15,6 +15,9 @@ ArrowHitDing();
 0x6A2990:
 void Player::sendMessage(wstring);
 
+0x6A2A10:
+wstring mcprintf(wchar_t):
+
 ## Original :  Tutorial::tick(void) : 0x520C50 -- 0x5218F8
 0x520C54:
 void ListTag::AddEffectTag(Amplifier,Id,Duration);
