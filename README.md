@@ -50,4 +50,11 @@ Tag CompoundTag::AddBlockEntityTag();
 wstring Wchar2Wstring(wchat_t const*, temp)
 
 0x521390:
+Aimbot
+
+0x521530:
 FREE
+
+# Thanks
+### [CodeLib](https://github.com/David-xF/CodeLib) (Custom Sky and other transplant sources)  
+### [MinceraftLCE](https://github.com/GRAnimated/MinecraftLCE) (Parsing function names)
