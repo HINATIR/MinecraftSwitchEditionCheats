@@ -1,5 +1,5 @@
 ; この関数は未テストです
-void Player::sendMessage(wstring):
+wstring Player::sendMessage(std::wstring const&):
 
 0x6A2990:
 SUB SP, SP, #0x40
@@ -27,7 +27,6 @@ BL 0x7057C4 ; sendpacket
 ADD X0, SP, #0x18
 BL 0xF400 ; deletepacket
 MOV X0, X20
-BL 0x9C9AA8 ; std::wstring::~wstring(void)
 LDP X29, X30, [SP,#0x30]
 LDP X19, X20, [SP,#0x20]
 LDR X21, [SP,#0x10]

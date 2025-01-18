@@ -13,10 +13,10 @@ RenderGUI();
 ArrowHitDing();
 
 0x6A2990:
-void Player::sendMessage(wstring);
+wstring Player::sendMessage(std::wstring const&):
 
 0x6A2A10:
-wstring mcprintf(wchar_t):
+wstring mcprintf(std::wstring const&):
 
 ## Original :  Tutorial::tick(void) : 0x520C50 -- 0x5218F8
 0x520C54:
@@ -50,11 +50,7 @@ Tag CompoundTag::AddBlockEntityTag();
 wstring Wchar2Wstring(wchat_t const*, temp)
 
 0x521390:
-Aimbot
+wstring displayString(std::wstring const&, int x, int y, int textcolor, int textalign, float scale):
 
-0x521530:
+0x521520:
 FREE
-
-# Thanks
-### [CodeLib](https://github.com/David-xF/CodeLib) (Custom Sky and other transplant sources)  
-### [MinceraftLCE](https://github.com/GRAnimated/MinecraftLCE) (Parsing function names)
